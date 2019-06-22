@@ -1,4 +1,4 @@
-var message = ''
 
+const logger = require('./logger')
 
-console.log(global.message)
+logger.log('message')
